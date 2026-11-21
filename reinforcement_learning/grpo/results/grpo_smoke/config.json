@@ -1,0 +1,12 @@
+{
+ "run": "grpo_smoke",
+ "iters": 5,
+ "n_groups": 2,
+ "group_size": 8,
+ "actor_lr": 0.001,
+ "max_delta": 0.03,
+ "init_sigma": 0.01,
+ "val_every": 5,
+ "val_episodes": 10,
+ "seed": 0
+}

@@ -1,0 +1,12 @@
+{
+ "run": "grpo_run1",
+ "iters": 500,
+ "n_groups": 2,
+ "group_size": 8,
+ "actor_lr": 0.001,
+ "max_delta": 0.03,
+ "init_sigma": 0.01,
+ "val_every": 25,
+ "val_episodes": 60,
+ "seed": 0
+}

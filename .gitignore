@@ -1,0 +1,29 @@
+# environments
+venv/
+.venv/
+vla-mujoco/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# data and bulky outputs
+*.npz
+data/
+**/frames/
+
+# secrets: never commit
+.env
+.env.*
+*.pem
+*.key
+*token*
+*secret*
+*credentials*
+kaggle.json
+wandb/
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+mujoco_menagerie/

@@ -1,0 +1,2 @@
+iter,success,episodes,mean_reward,actor_loss,critic_loss,sigma,mean_abs_mu
+1,8,16,0.812,-0.00622,0.87851,0.005,4e-05

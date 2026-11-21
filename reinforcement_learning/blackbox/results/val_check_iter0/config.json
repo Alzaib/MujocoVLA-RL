@@ -1,0 +1,12 @@
+{
+ "run": "val_check_iter0",
+ "iters": 1,
+ "batch": 16,
+ "actor_lr": 0.0003,
+ "critic_lr": 0.001,
+ "max_delta": 0.03,
+ "init_sigma": 0.005,
+ "val_every": 1000,
+ "val_episodes": 60,
+ "seed": 0
+}

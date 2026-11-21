@@ -53,7 +53,7 @@ def solve_ik(model, target_pos, target_rot, q_start, iters=300, damping=0.05, st
 
 # Step 4: test it.
 if __name__ == "__main__":
-    scene = (Path(__file__).resolve().parent.parent / "mujoco_menagerie"
+    scene = (Path(__file__).resolve().parent.parent / "assets"
              / "franka_emika_panda" / "panda_pick_scene.xml")
     model = mujoco.MjModel.from_xml_path(str(scene))
     data = mujoco.MjData(model)

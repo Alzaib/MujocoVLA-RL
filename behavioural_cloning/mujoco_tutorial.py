@@ -8,7 +8,7 @@ import ik
 np.set_printoptions(precision=4, suppress=True)
 
 #custom scene with panda robot, table, cubes and drop zones
-SCENE = Path(__file__).resolve().parent.parent / "mujoco_menagerie" / "franka_emika_panda" / "panda_pick_scene.xml"
+SCENE = Path(__file__).resolve().parent.parent / "assets" / "franka_emika_panda" / "panda_pick_scene.xml"
 
 #load and the models from the scene
 model = mujoco.MjModel.from_xml_path(str(SCENE))

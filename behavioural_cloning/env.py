@@ -6,7 +6,7 @@ import mujoco
 import numpy as np
 
 # custom scene with panda robot, table, cubes and drop zones
-SCENE = Path(__file__).resolve().parent.parent / "mujoco_menagerie" / "franka_emika_panda" / "panda_pick_scene.xml"
+SCENE = Path(__file__).resolve().parent.parent / "assets" / "franka_emika_panda" / "panda_pick_scene.xml"
 
 HOME_Q = np.array([0, 0, 0, -1.57079, 0, 1.57079, -0.7853])
 GRIPPER_OPEN = 255
